@@ -1,0 +1,522 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Encode Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+/* GLOBAL CLASSES */
+.primary-color{
+    color: #FD5D14;
+}
+.text-white{
+    color: white;
+}
+
+/* ------------------------ */
+
+/* <!-- Topbar starts from here  --> */
+.topbar{
+    clear: both;
+    overflow: hidden;
+}
+.topcard{
+    width: 33%;
+    float: left;
+    padding: 0 0 10px 140px;
+    border-bottom: solid 1px gray;
+}
+.topcard2{
+    border-right: solid 1px gray;
+    border-left: solid 1px gray;
+}
+.topicon{
+    float: left;
+    font-size: 38px;
+    color:#FD5D14 ;
+    padding: 0 12px;
+}
+.top-content{
+    float: left;
+    margin-top: 5px;
+}
+/* <!-- Topbar ends  here  --> */
+
+/* <!-- Navbar Starts from here  --> */
+.navbar{
+    background-color: #040F28;
+    background-image: -webkit-repeating-radial-gradient(center center, rgba(255,255,255,.2),rgba(255,255,255,.2) 1px,transparent 1px,transparent 100%);
+    background-image: -moz-repeating-radial-gradient(center center,rgba(255,255,255,.2),rgba(255,255,255,.2) 1px,transparent 1px,transparent 100%);
+    background-image: -ms-repeating-radial-gradient(center center,rgba(255,255,255,.2),rgba(255,255,255,.2) 1px,transparent 1px,transparent 100%);
+    background-image: -o-repeating-radial-gradient(center center,rgba(255,255,255,.2),rgba(255,255,255,.2) 1px,transparent 1px,transparent 100%);
+    background-image: repeating-radial-gradient(center center,rgba(255,255,255,.2), rgba(255,255,255,.2) 1px,transparent 1px,transparent 100%);
+    background-size: 3px 3px;
+    clear: both;
+    overflow: hidden;
+}
+
+.logo{
+    font-size: 50px;
+    font-weight: 900;
+    float: left;
+    padding: 10px 40px;
+}
+.menu{
+    float: right;
+}
+.menu > a{
+    text-decoration: none;
+    padding: 15px;
+}
+.menu > a.quotebtn{
+    background-color: #FD5D14;
+    padding: 60px;
+    line-height: 80px;
+}
+
+/* <!-- Navbar Ends here  --> */
+
+/* <!-- Main slider starts form here --> */
+.backround-main-img{
+    background-color: #2c2e35;
+    background-image: url(images/carousel-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 150px 0;
+}
+.main-text>i{
+    font-size: 36px;
+    color: #FD5D14;
+}
+.main-text>h1{
+    font-size: 68px;
+}
+.main-text>button{
+    padding: 10px 24px;
+    font-size: 16px;
+    background-color: #FD5D14;
+    border: none;
+}
+/* <!-- Main slider ends  here --> */
+
+/* <!-- About starts form here --> */
+.about{
+    padding: 70px 50px;
+    clear: both;
+    overflow: hidden;
+}
+.build1{
+    width: 50%;
+    float: left;
+}
+.build1>h1{ 
+    font-size: 40px;
+    font-weight: 900;
+}
+.build1>h2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #636363;
+}
+.build1>p{
+    padding: 20px 0;
+}
+.aboutlist{
+    width: 50%;
+    float: left;
+    padding-bottom: 40px;
+}
+.aboutlist> ul{
+    list-style: none;
+}
+.listicon{
+    padding: 0 10px;
+}
+
+.build2{
+    width: 40%;
+    background-color: #000000;
+    background-image: linear-gradient(135deg, #0f0f13 25%, transparent 25%), linear-gradient(225deg, #202025 25%, transparent 25%), linear-gradient(45deg, #0b0c0f 25%, transparent 25%), linear-gradient(315deg, #0f1025 25%, #585454 25%);
+    background-position: 4px 0, 4px 0, 0 0, 0 0;
+    background-size: 4px 4px;
+    background-repeat: repeat;
+    float: right;
+}
+.build2>img{
+    width: 100%;
+    position: relative;
+    top: 40px;
+    left: -40px;
+}
+/*  <!-- About ends here --> */
+
+
+/*  <!-- services starts from here -->*/
+.services_box{
+    background-color: #f8eedf;
+    text-align: center;
+    padding: 50px;
+}
+.services_box>h2{
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.services_box1{
+    width: 30%;
+    background-color: #f7f7f7;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px 10px;
+    text-align: center;
+    position: relative;
+}
+.services_box1>img{
+    width: 100%;
+    height: 250px;
+}
+.services_box1>i{
+    font-size: 45px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    border: #000 solid 1px ;
+    padding: 30px;
+    position: absolute;
+    top: 215px;
+    left: 130px;
+}
+.services_box1>h1{
+    font-size: 18px;
+    line-height: 110px;
+    margin-top: 15px;
+}
+.services_box1>a{
+    color:#FD5D14;
+    font-size: 16px;
+    font-weight: 300;
+    /* line-height: 50px; */
+    padding-top: 20px;
+}
+/*  <!-- services ends here --> */
+
+
+.contact{
+    background-color: bisque;
+    padding: 70px 20px;
+    clear: both;
+    overflow: hidden;
+}
+.contact_data{
+    width: 45%;
+    margin: 30px 30px 30px 50px;
+    float: left;
+}
+.contact_data>h1{
+    font-size: 36px;
+    padding-top: 20px;
+}
+
+.contact_data>p{
+    padding: 30px 0;
+}
+.contact_data>button{
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #FD5D14;
+}
+.contact_main{
+    padding: 10px 0 10px 10px;
+    float: right;
+    width: 47%;
+    background-color: grey;
+
+}
+.inputfield{
+    width: 48%;
+    display: inline-block;
+}
+
+input,textarea{
+    width: 95%;
+    padding: 6px 12px;
+    margin: 10px;
+}
+
+/* <!-- Project starts from here --> */
+.project{
+    text-align: center;
+    overflow: hidden;
+    background-color: #dfd5d5;
+    padding: 50px;
+}
+.project>h2{
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+.background-slider{
+    background-color: #e5e5f7;
+    background-image: radial-gradient( ellipse farthest-corner at 7px 7px , #000000, #000000 50%, #e5e5f7 50%);
+    background-size: 7px 7px; 
+    background-repeat: repeat;
+    padding: 30px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.sliderimg{
+    background-image: url(images/portfolio-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: #2c2e35;
+    width: 120px;
+    border: 2px solid #FD5D14;
+    border-radius: 1px;
+
+    display: inline-block;
+    font-size: 10px;
+    line-height: 70px;
+}
+
+.slider2{
+    background-image: url(images/portfolio-2.jpg);
+}
+
+.slider3{
+    background-image: url(images/portfolio-3.jpg);
+}
+
+.slider-images{
+    width: 30%;
+    display: inline-block;
+    margin: 0px 10px;
+}
+.slider-images > img{
+    width: 100%;
+    height: 300px;
+}
+.slider-location{
+    margin: 0 50px;
+    background-color: grey;
+    padding: 30px 0;
+    
+    position: relative;
+    top: -50px;
+}
+/* <!-- Project ends here --> */
+
+
+/*<!-- Team starts from here -->*/
+.main-team{
+    text-align: center;
+    font-size: 24px;
+    padding: 50px;
+}
+.team-members{
+    margin-top: 50px;
+}
+.team-m1{
+    width: 22%;
+    display: inline-block ;
+    margin: 0px 15px;
+    background-color: #F4F6F8;
+}
+.team1{ 
+    clear: both;
+    overflow: hidden;
+}
+.team-img{
+    width: 80%;
+    float: left;
+}
+.team-img>img{
+    width: 100%;
+    height: 250px;
+}
+.team-icons{
+    width: 20%;
+    float: right;
+}
+.team-icons > i{
+    display: block;
+    color: #585454;
+    line-height: 51px;
+}
+.team-name{
+    text-align: left;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 10px 10px;
+}
+/* <!-- Team ends here --> */
+
+/* <!-- clients starts from here --> */
+.clients{
+    background-color: #F4F6F8;
+    padding: 60px 50px;
+    clear: both;
+    overflow: hidden;
+}
+.clients>h1{
+    font-size: 40px;
+    text-align: center;
+}
+.main-clients{
+    text-align: right;
+    width: 55%;
+    margin-top: 50px;
+    padding: 150px 0 150px 250px ;
+    background-image: url(images/testimonial.jpg);
+    background-repeat: no-repeat;
+    background-size: 80% 100%;
+    background-position: left;
+    float: left;
+}
+.clients-data{
+    width: 40%;
+    float: right;
+    padding: 400px 0 200px 0;
+    text-align: left;
+    line-height: 20px;
+    font-weight: 400;
+}
+.clients-data>h1{
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.clients-data>span{
+    font-size: 12px;
+}
+.clients-data>p{
+    font-size: 16px;
+}
+/* <!-- clients ends here --> */
+
+/* <!-- Blogs starts from here --> */
+.blogs{
+    padding: 60px 50px;
+}
+.blogs>h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.blog1{
+    width: 30%;
+    background-color:  #ece7e4;
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 15px 30px 15px;
+}
+.blog1>img{
+    width: 100%;
+}
+.blog-img{
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.user-img{
+    float: left;
+}
+.user-img>img{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    float: left;
+    margin: 10px;
+}
+.user-img>h2{
+    font-size: 18px;
+    font-weight: 300;
+    color:#707070;
+    float: left;
+    margin-top: 25px;
+}
+.blog-icon{
+    float: right;
+    margin-top: 25px;
+}
+.blog1>a{
+    font-size: 12px;
+    line-height: 50px;
+}
+
+
+/* <!-- Blogs ends here --> */
+
+/* <!---Footer starts from here ---> */
+
+.footer{
+    background-color: #000000;
+    opacity: 0.8;
+    background-image:  linear-gradient(135deg, #0f0f13 25%, transparent 25%), linear-gradient(225deg, #202025 25%, transparent 25%), linear-gradient(45deg, #0b0c0f 25%, transparent 25%), linear-gradient(315deg, #0f1025 25%, #585454 25%);
+    background-position:  4px 0, 4px 0, 0 0, 0 0;
+    background-size: 4px 4px;
+    background-repeat: repeat;
+    clear: both;
+    overflow: hidden;
+
+}
+.footer-section, .page-links, .quick-links, .popular-links{
+    width: 49%;
+    float: left;
+    padding: 70px 50px;
+}
+.footer-section{
+    border-right: solid 1px #FD5D14;
+}
+.footerlogo{
+    font-size: 48px;
+    font-weight: 700;
+}
+.footer-section>p{
+    margin: 30px 0;
+}
+.footer-icons{
+    list-style: none;
+    
+}
+.footer-icons>li{
+    padding: 6px;
+    margin: 10px;
+}
+.footer-icons>li>a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.socialmediaicons>li.socialmediaicon{
+    display: inline-block;
+    background-color: #FD5D14;
+    font-size: 20px;
+}
+
+.quick-links, .popular-links{
+    padding: 70px 20px 20px 20px;
+}
+.email{
+    width: 64%;
+    padding: 10px 0;
+}
+.button{
+    width: 18%;
+    border-style: none;
+    padding: 6px 0;
+    background-color: #FD5D14;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+/* <!---Footer ends here ---> */
